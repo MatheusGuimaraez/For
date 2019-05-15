@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+
+	  <link rel="shortcut icon" type="image/x-icon" href="https://imgur.com/q10LPcL">
+<meta charset="utf-8">
+<title>Contato</title>
+	
+	
+	
+</head>
+
+<body>
+	<div id="total">
+			
+
+		<div id="forml">
+		<form >
+		<fieldset>
+			<legend><h7><b>Dados Pessoais</b></h7></legend>
+		<h6>Nome:</h6><br>	
+		<input type="text" name="nome" id="txtnome" required placeholder="Digite seu nome"/><span class="alerta" > *</span><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;	<br>
+
+		<h6>E-Mail:</h6><br>
+		<input type="email" name="email" id="txtemail" required placeholder="Digite seu E-mail" /><span class="alerta" > *</span><br><br>
+		
+		<h6>Telefone:</h6><br>
+		<input type="tel" name="telefone" id="txtTelefone" required placeholder="Digite seu E-mail" />
+		<br><br>
+		
+
+
+		
+		</fieldset>
+		<fieldset>
+		<legend><h7><b>Endereço</b></h7></legend>
+			<h6>Endereço:</h6><br>
+ 			<input type="text" name="Cidade"
+							 /><br><br>
+
+			<h6>Número:</h6><br>
+ 			<input type="number" name="numero"
+						   /><br><br>
+			<h6>Complemento:</h6><br>
+ 			 <input type="text" name="complemento"
+								/><br><br>
+			<h6>Bairro:</h6><br>
+			 <input type="text" name="bairro"
+						   /><br><br>
+			<h6>Cidade:</h6><br>
+			 <input type="text" name="cidade"
+						   /><br><br>
+
+
+			
+		</fieldset>
+		<br>
+		<h6>Mensagem:</h6><br>
+		<textarea name="txtmensagem"> </textarea>
+
+
+		<p>&nbsp;</p>
+		    <span><h6>Os campos contendo <span class="alerta" > *</span>, são de preenchimento obrigatório </h6></span>
+		<p>&nbsp;</p>
+		
+
+		<button type="button" (click)="exibeNaConsole()">Enviar</button>
+		<input type="reset" value="Limpar"/>
+		
+		
+		</form>
+		</div>	
+		</div>
+	</body>
+
+</html>
